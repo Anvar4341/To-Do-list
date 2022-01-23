@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+  <link rel="stylesheet" href="./style/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <div class="containers">
+    <div class="wrapper">
+      <div class="crud">
+        <div class="crud-header">
+          <h3 class="py-3">Comment counter: <span id="countter">0</span></h3>
+          <form action="#">
+            <input id="search-input" class="form-control" type="text" placeholder="Search comment">
+          </form>
+        </div>
+        <div class="crud-body">
+          <div class="texts-comments">
+              <ul id="lits-group">
+                <!-- <li class="d-flex justify-content-between align-items-center">lestener</li> -->
+              </ul>
+          </div>
+        </div>
+        <div class="crud-footer">
+          <div class="comments d-flex">
+            <input id="enter-comment" type="text" class="form-control me-2" placeholder="Enter comment">
+            <button id="add-comment" class="btn btn-success">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script/script.js"></script>
+  <!-- <script src="./script/scrtips.js"></script> -->
+</body>
+</html>
